@@ -1,0 +1,80 @@
+h1{
+    color: red;
+}
+p{
+    color: aqua;
+    /* background-color: rgb(22, 15, 15); */
+}
+nav{
+    
+border: 2px solid blue;
+background-color: grey;
+}
+.navbar ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbar ul li
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+   
+
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    border: 2px solid red;
+    margin:10px;
+    padding: 10px;
+    color: aliceblue;
+
+    
+}
+.container{
+    border: 2px solid yellow;
+    background-color: yellow;
+    max-width: 100%;
+
+}
+.container h1{
+    text-align: center;
+}
+
+#inpform
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+#inptext{
+    display: flex;
+    justify-content: center;
+}
+#btnform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+}
+.btn
+{
+    display: block;
+    width: 100px;
+    height: 25px;
+    margin: 4px;
+    color: black;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
