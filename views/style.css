@@ -1,3 +1,26 @@
+/* #bgimage{
+    position: absolute;
+    z-index: -5;
+    width: 100%;
+    height: 100vh;
+} */
+
+/* body
+{
+    background-image: url(/views/gymphoto.jpg);
+} */
+*{
+    /* margin: 0px; */
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+section
+{
+    height: 100vh;
+    width: 100%;
+}
+
 h1{
     color: red;
 }
@@ -9,6 +32,8 @@ nav{
     
 border: 2px solid blue;
 background-color: grey;
+height: 80px;
+position: sticky;
 }
 .navbar ul
 {
@@ -35,10 +60,88 @@ background-color: grey;
 
     
 }
+
+#abtid{
+    background-color: rgb(68, 68, 94);
+    display: flex;
+}
+#abtid h1{
+    align-items: center;
+}
+
+#bmicalculator{
+    border: 5px solid greenyellow;
+    display: flex;
+    flex-direction: column;
+
+}
+#bmicalculator #bmi1div
+{
+    display: flex;
+    justify-content: center;
+    border: 2px solid green;
+}
+#bmicalculator #bmi1div h1
+{
+    height: 10vh;
+    
+    font-size: 50px;
+    border: 2px solid green;
+    
+} 
+#bmicalculator #bmi2div
+{
+    height: 90vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(70, 74, 70);
+}
+#bmicalculator #bmilogo
+{
+    border: 2px solid red;
+    width: 20%;
+
+}
+#bmicalculator #bmiform
+{
+    border: 2px solid purple;
+    width: 40%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#bmicalculator #bmiform input
+{
+    border: 2px solid green;
+    height: 50px;
+    width: 80%;
+    /* display: block; */
+    margin: 30px;
+    align-items: center;
+}
+#bmicalculator #bmiform button
+{
+    border: 2px solid green;
+    height: 50px;
+    width: 50%;
+    /* display: block; */
+    margin: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+
 .container{
-    border: 2px solid yellow;
+    border: 2px solid rgb(248, 0, 0);
     background-color: yellow;
     max-width: 100%;
+    border: 100vh;
 
 }
 .container h1{
@@ -77,4 +180,51 @@ background-color: grey;
     border: 2px solid green;
     cursor: pointer;
 }
+
+#contactgym{
+    border: 5px solid black;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#contactgym h1{
+    height: 10vh;margin: 0px;
+    background-color: rgb(59, 59, 72);
+    border: 2px solid red
+}
+
+#contactgym div{
+    height: 90vh;
+    background-color: rgb(66, 73, 73);
+
+}
+#contactgym div p{
+    color: white;
+    font-size: 30px;
+    padding: 7px;
+    margin: 17px;
+   
+}
+#contactgym div a{
+    color: white;
+    font-size: 30px;
+    padding: 7px;
+    margin: 17px;
+    text-decoration: none;
+}
+#contactgym div a:hover
+{
+    border-radius: 20px;
+    background-color: rgb(10, 9, 9);
+}
+
+#workout{
+    border: 2px solid green;
+    width: 100%;
+    height: 100vh;
+}
+
+
 
